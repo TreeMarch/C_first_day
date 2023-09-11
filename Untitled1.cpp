@@ -1,17 +1,12 @@
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
 
-int main()
-{
-//	int a,b,tong;
-
-	printf("HelloWorld \n ");
-	
-//	getch();
-//	printf("nhap a = ");
-//	scanf("%d",&a);
-//	printf("nhap b = ");
-//	scanf("%d",&b);
-//	tong = a+b;
-//	printf("Ket qua = %d ",tong);
+int main(){
+	int a,b,sum;
+	printf("Nhap so dau tien :");
+	scanf("%d",&a);
+	printf("nhap so thu hai : ");
+	scanf("%d",b);
+	sum = a + b;
+	printf("the sum  is :%d", sum);
+	return 0;
 }
